@@ -34,7 +34,7 @@ Always pin links to the full 40-character commit SHA rather than `main`, so hist
 From `dsh-mnemon`, maintainers and automated workflows can upload and generate pinned Markdown snippets in one command:
 
 ```bash
-pnpm run pr:evidence -- --slug <slug> /path/to/before.png /path/to/after.png
+node scripts/upload-pr-evidence.mjs --slug <slug> /path/to/before.png /path/to/after.png
 ```
 
 ## Content & Security Rules / 内容与安全规范
